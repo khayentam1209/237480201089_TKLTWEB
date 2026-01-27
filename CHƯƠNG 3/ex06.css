@@ -1,36 +1,30 @@
+/* Body */
 body {
-    font-family: "Times New Roman";
+    background-color: #fff7a8; /* vàng sáng */
     font-size: 13pt;
 }
 
-/* Khung bao + gạch cong giống đề */
-.container {
-    width: 800px;
-    margin: auto;
-    padding: 20px 30px 30px 20px;
-
-    border: 2px solid black;
-    border-bottom-right-radius: 120px;
-}
-
-/* Tiêu đề bên phải */
-.header {
-    text-align: right;
-    font-size: 22pt;
+/* Tiêu đề */
+.title {
+    text-align: center;
+    color: red;
     font-weight: bold;
-    margin-bottom: 15px;
 }
 
-/* Nội dung */
-.content h3 {
-    font-size: 14pt;
-    margin-top: 15px;
+/* Đoạn văn "CSS là gì?" */
+.css-definition {
+    font-family: Verdana;
+    color: green;
 }
 
-.content p {
-    text-align: justify;
+/* Danh sách có số thứ tự */
+.number-list {
+    font-family: Verdana;
+    color: purple;
 }
 
-.content ul {
-    margin-left: 40px;
+/* Danh sách dấu hoa thị */
+.star-list {
+    font-family: "Times New Roman";
+    color: blue;
 }

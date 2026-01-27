@@ -1,35 +1,117 @@
-<html lang="vi">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Đăng ký thể thao</title>
+    <title>ex05.htm</title>
 </head>
 <body>
 
-<h1 style="font-family:Verdana; color:red;">
-PHIẾU ĐĂNG KÝ DỰ THI THỂ THAO
-</h1>
+<!-- Khung ngoài -->
+<table border="1" width="900" align="center" cellpadding="10">
 
-<form>
-Họ tên: <input type="text"><br><br>
-Mật khẩu: <input type="password"><br><br>
+    <!-- Thanh tiêu đề -->
+    <tr bgcolor="#cccccc">
+        <td><b>Đăng ký thể thao</b></td>
+    </tr>
 
-Môn thể thao:<br>
-<input type="checkbox"> Bóng đá<br>
-<input type="checkbox"> Bóng chuyền<br>
-<input type="checkbox"> Điền kinh<br>
-<input type="checkbox"> Bơi lội<br><br>
+    <tr>
+        <td>
 
-Thiết bị:
-<select>
-    <option>CPU</option>
-    <option>Mainboard</option>
-    <option>RAM</option>
-</select>
-<br><br>
+            <!-- Phần đầu -->
+            <table width="100%">
+                <tr>
+                    <td align="left">
+                        <b>TRƯỜNG ĐẠI HỌC BẠC LIÊU</b><br>
+                        KHOA KỸ THUẬT VÀ CÔNG NGHỆ
+                    </td>
+                    <td align="right">
+                        <b>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</b><br>
+                        Độc lập - Tự do - Hạnh phúc
+                    </td>
+                </tr>
+            </table>
 
-<input type="submit" value="Submit">
-<input type="reset" value="Reset">
-</form>
+            <br>
+
+            <!-- Tiêu đề chính -->
+            <center>
+                <font face="Verdana" size="5" color="red">
+                    <b>PHIẾU ĐĂNG KÝ DỰ THI THỂ THAO</b>
+                </font>
+            </center>
+
+            <br><br>
+
+            <!-- Nội dung -->
+            <form>
+            <table width="100%">
+                <tr>
+                    <!-- Logo -->
+                    <td width="30%" align="center">
+                        <img src="baclieu.png" width="180">
+                    </td>
+
+                    <!-- Thông tin -->
+                    <td width="70%">
+
+                        Họ tên:
+                        <input type="text" size="40"><br><br>
+
+                        Mật khẩu:
+                        <input type="password" size="40"><br><br>
+
+                        <b>Môn thể thao:</b><br>
+                        <input type="checkbox"> Bóng đá<br>
+                        <input type="checkbox"> Bóng chuyền<br>
+                        <input type="checkbox"> Điền kinh<br>
+                        <input type="checkbox"> Bơi lội<br>
+
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+
+            <!-- Phần cứng -->
+            <table border="1" width="100%" cellpadding="10">
+                <tr>
+                    <td align="center">
+                        <b>PHẦN CỨNG MÁY TÍNH</b>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+
+                        Thiết bị:<br>
+                        <select size="4">
+                            <option>CPU</option>
+                            <option>Mainboard</option>
+                            <option>ASUS DVD</option>
+                            <option>RAM KingMax</option>
+                        </select>
+
+                        <br><br>
+
+                        Thời gian bảo hành:<br>
+                        <select>
+                            <option>6 tháng</option>
+                            <option>12 tháng</option>
+                            <option>24 tháng</option>
+                            </select>
+
+                        <br><br>
+
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+
+                    </td>
+                </tr>
+            </table>
+
+            </form>
+
+        </td>
+    </tr>
+</table>
 
 </body>
 </html>

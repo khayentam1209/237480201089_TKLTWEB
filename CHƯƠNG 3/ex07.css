@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+}
+
+/* Khung tổng */
+.container {
+    width: 700px;
+    display: flex;
+    border: 1px solid black;
+}
+
+/* Menu bên trái */
+.menu {
+    width: 200px;
+    background-color: black;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    border-bottom: 1px solid gray;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu ul li a:hover {
+    background-color: gray;
+}
+
+/* Nội dung bên phải */
+.content {
+    width: 500px;
+    background-color: #e0e0e0;
+    padding: 15px;
+}

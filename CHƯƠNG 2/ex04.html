@@ -1,31 +1,75 @@
-<html lang="vi">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Đăng ký xét tuyển</title>
+    <title>ex04.htm</title>
 </head>
 <body>
 
-<h1 style="font-family:Verdana; color:red;">
-ĐĂNG KÝ XÉT TUYỂN
-</h1>
+<!-- Khung ngoài -->
+<table border="1" width="800" align="center" cellpadding="10">
 
-<form>
-Họ tên: <input type="text"><br><br>
+    <!-- Dòng tiêu đề trên -->
+    <tr bgcolor="#cccccc">
+        <td><b>Đăng ký dự thi</b></td>
+    </tr>
 
-Giới tính:
-<input type="radio" name="gt"> Nam
-<input type="radio" name="gt"> Nữ
-<br><br>
+    <tr>
+        <td>
 
-Ngành thi:
-<input type="radio" name="nganh"> CNTT
-<input type="radio" name="nganh"> Mầm non
-<input type="radio" name="nganh"> Âm nhạc
-<br><br>
+            <!-- Phần tiêu đề -->
+            <table width="100%">
+                <tr>
+                    <td align="left">
+                        <b>TRƯỜNG ĐẠI HỌC BẠC LIÊU</b><br>
+                        KHOA KỸ THUẬT VÀ CÔNG NGHỆ
+                    </td>
+                    <td align="right">
+                        <b>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</b><br>
+                        Độc lập - Tự do - Hạnh phúc
+                    </td>
+                </tr>
+            </table>
 
-<input type="submit" value="Đồng ý">
-<input type="reset" value="Không đồng ý">
-</form>
+            <br>
+
+            <!-- Tiêu đề chính -->
+            <center>
+                <font face="Verdana" size="5" color="red">
+                    <b>ĐĂNG KÝ XÉT TUYỂN</b>
+                </font>
+            </center>
+
+            <br><br>
+
+            <!-- Form -->
+            <form>
+
+                Họ tên:
+                <input type="text" size="40">
+                <br><br>
+
+                Giới tính:
+                <input type="radio" name="gt" checked> Nam
+                <input type="radio" name="gt"> Nữ
+                <br><br>
+
+                Ngành thi:
+                <br>
+                <input type="radio" name="nganh" checked> Công nghệ thông tin<br>
+                <input type="radio" name="nganh"> Mầm non<br>
+                <input type="radio" name="nganh"> Âm nhạc
+                <br><br>
+
+                <!-- Nút -->
+                <center>
+                    <input type="submit" value="Đồng ý">
+                    <input type="reset" value="Không đồng ý">
+                </center>
+
+            </form>
+
+        </td>
+    </tr>
+</table>
 
 </body>
 </html>
