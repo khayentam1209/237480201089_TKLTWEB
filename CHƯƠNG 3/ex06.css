@@ -1,0 +1,36 @@
+body {
+    font-family: "Times New Roman";
+    font-size: 13pt;
+}
+
+/* Khung bao + gạch cong giống đề */
+.container {
+    width: 800px;
+    margin: auto;
+    padding: 20px 30px 30px 20px;
+
+    border: 2px solid black;
+    border-bottom-right-radius: 120px;
+}
+
+/* Tiêu đề bên phải */
+.header {
+    text-align: right;
+    font-size: 22pt;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Nội dung */
+.content h3 {
+    font-size: 14pt;
+    margin-top: 15px;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.content ul {
+    margin-left: 40px;
+}

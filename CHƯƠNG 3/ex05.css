@@ -1,0 +1,49 @@
+body {
+    width: 800px;
+    margin: auto;
+    font-size: 13pt;
+}
+
+/* Tiêu đề */
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.title h2 {
+    margin: 5px 0;
+}
+
+/* Các khối nội dung */
+.section {
+    margin-top: 15px;
+}
+
+/* Năm 1 */
+.year1 {
+    font-family: Verdana;
+    color: black;
+}
+
+/* Năm 2 */
+.year2 {
+    font-family: Tahoma;
+    color: black;
+}
+
+/* Năm 3 */
+.year3 {
+    font-family: "Times New Roman";
+    color: black;
+}
+
+/* Thi tốt nghiệp */
+.exam {
+    font-family: Verdana;
+    color: red;
+}
+
+/* Danh sách */
+ul {
+    margin-left: 40px;
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 40px;
+}
+
+/* Tiêu đề */
+h2 {
+    color: red;
+}
+
+/* Đoạn 1 */
+.doan1 {
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    background-color: blue;
+    padding: 15px;
+}
+
+/* Đoạn 2 */
+.doan2 {
+    font-size: 14px;
+    font-style: italic;
+    color: yellow;
+    background-color: brown;
+    padding: 15px;
+    margin-top: 10px;
+}

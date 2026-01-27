@@ -1,0 +1,32 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+/* H1 */
+h1 {
+    color: red;
+}
+
+/* H2 và H3 */
+h2, h3 {
+    color: blue;
+}
+
+/* Lớp */
+.lop {
+    font-size: 18px;
+}
+
+/* Tô sáng bằng span */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Span tô nền + đậm */
+.bold-bg {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    padding: 5px;
+}

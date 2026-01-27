@@ -1,0 +1,23 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Khung bao */
+.khung {
+    width: 500px;
+    background-color: pink;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* Tiêu đề */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Danh sách */
+ol, li {
+    font-size: 14px;
+    color: black;
+}
