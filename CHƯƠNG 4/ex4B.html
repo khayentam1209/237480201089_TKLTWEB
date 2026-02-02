@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bài làm JavaScript 4B</title>
+</head>
+
+<body>
+    <script language="JavaScript">
+        function chothoten() {
+            alert(document.getElementById("txthoten").value);
+        }
+
+        function chodonvi() {
+            alert(document.getElementById("txtdonvi").value);
+        }
+    </script>
+
+    <!-- Nút Họ tên -->
+    <input type="button" name="hoten" value="Họ tên" onclick="chothoten()">
+    <br><br>
+
+    <!-- Textbox Họ tên -->
+    <input type="text" id="txthoten" value="Chào" size="30">
+    <br><br>
+
+    <!-- Nút Đơn vị -->
+    <input type="button" name="donvi" value="Đơn vị" onclick="chodonvi()">
+    <br><br>
+
+    <!-- Textbox Đơn vị -->
+    <input type="text" id="txtdonvi" value="Đơn vị" size="30">
+</body>
+</html>
