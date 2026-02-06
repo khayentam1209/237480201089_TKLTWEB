@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Bài 14A</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h3>Máy tính đơn giản</h3>
+
+    <input type="text" id="SoHang1">
+    <input type="text" id="SoHang2">
+    <input type="text" id="KetQua">
+
+    <br><br>
+
+    <input type="button" value="Cộng"
+        onClick="
+            KetQua.value =
+            parseFloat(SoHang1.value) + parseFloat(SoHang2.value);
+        ">
+
+    <input type="button" value="Trừ"
+        onClick="
+            KetQua.value =
+            parseFloat(SoHang1.value) - parseFloat(SoHang2.value);
+        ">
+
+    <input type="button" value="Nhân"
+        onClick="
+            KetQua.value =
+            parseFloat(SoHang1.value) * parseFloat(SoHang2.value);
+        ">
+
+    <input type="button" value="Chia"
+        onClick="
+            KetQua.value =
+            parseFloat(SoHang1.value) / parseFloat(SoHang2.value);
+        ">
+</body>
+</html>

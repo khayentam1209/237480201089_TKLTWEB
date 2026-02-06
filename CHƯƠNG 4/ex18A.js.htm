@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Đếm ký tự</title>
+<script>
+function KiemTra(){
+    SoKyTu.value = NoiDung.value.length;
+    if(NoiDung.value.length > 200)
+        alert("Bạn đã gõ quá số ký tự cho phép!");
+}
+</script>
+</head>
+<body>
+Số ký tự: <input type="text" name="SoKyTu"><br><br>
+<textarea name="NoiDung" cols="50" rows="10" onkeyup="KiemTra()"></textarea>
+</body>
+</html>

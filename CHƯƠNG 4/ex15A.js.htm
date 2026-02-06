@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Thay đổi thuộc tính</title>
+<script>
+function CapNhat(){
+    document.title = TieuDe.value;
+    document.bgColor = MauNen.value;
+    document.fgColor = MauChu.value;
+    window.status = TrangThai.value;
+}
+</script>
+</head>
+<body>
+<h3>Nhập giá trị và nhấn Thay đổi</h3>
+Tiêu đề: <input type="text" name="TieuDe"><br>
+Màu nền: <input type="text" name="MauNen"><br>
+Màu chữ: <input type="text" name="MauChu"><br>
+Trạng thái: <input type="text" name="TrangThai"><br><br>
+<input type="button" value="Thay đổi" onclick="CapNhat()">
+</body>
+</html>

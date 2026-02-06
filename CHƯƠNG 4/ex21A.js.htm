@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Máy tính</title>
+<script>
+function Tinh(phep){
+    let a=parseFloat(So01.value);
+    let b=parseFloat(So02.value);
+    if(phep=='+') Ketqua.value=a+b;
+    if(phep=='-') Ketqua.value=a-b;
+    if(phep=='*') Ketqua.value=a*b;
+    if(phep=='/') Ketqua.value=a/b;
+}
+</script>
+</head>
+<body>
+Số 1: <input name="So01"><br>
+Số 2: <input name="So02"><br>
+Kết quả: <input name="Ketqua"><br><br>
+<button onclick="Tinh('+')">+</button>
+<button onclick="Tinh('-')">-</button>
+<button onclick="Tinh('*')">*</button>
+<button onclick="Tinh('/')">/</button>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Bài 22 - Máy tính cá nhân</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+}
+.calculator{
+    width:220px;
+    background:#fff;
+    padding:15px;
+    border-radius:10px;
+}
+input[type=text]{
+    width:100%;
+    height:35px;
+    font-size:18px;
+    text-align:right;
+    margin-bottom:10px;
+}
+button{
+    width:45px;
+    height:40px;
+    font-size:16px;
+    margin:2px;
+    cursor:pointer;
+}
+</style>
+
+<script>
+function themGiaTri(value){
+    document.getElementById("ketqua").value += value;
+}
+
+function tinh(){
+    try{
+        document.getElementById("ketqua").value =
+            eval(document.getElementById("ketqua").value);
+    }catch{
+        alert("Biểu thức không hợp lệ!");
+    }
+}
+
+function xoa(){
+    document.getElementById("ketqua").value = "";
+}
+</script>
+</head>
+
+<body>
+
+<h3>Máy tính cá nhân</h3>
+
+<div class="calculator">
+    <input type="text" id="ketqua" readonly>
+
+    <br>
+    <button onclick="themGiaTri('7')">7</button>
+    <button onclick="themGiaTri('8')">8</button>
+    <button onclick="themGiaTri('9')">9</button>
+    <button onclick="themGiaTri('/')">/</button>
+
+    <br>
+    <button onclick="themGiaTri('4')">4</button>
+    <button onclick="themGiaTri('5')">5</button>
+    <button onclick="themGiaTri('6')">6</button>
+    <button onclick="themGiaTri('*')">*</button>
+
+    <br>
+    <button onclick="themGiaTri('1')">1</button>
+    <button onclick="themGiaTri('2')">2</button>
+    <button onclick="themGiaTri('3')">3</button>
+    <button onclick="themGiaTri('-')">-</button>
+
+    <br>
+    <button onclick="themGiaTri('0')">0</button>
+    <button onclick="themGiaTri('.')">.</button>
+    <button onclick="tinh()">=</button>
+    <button onclick="themGiaTri('+')">+</button>
+
+    <br>
+    <button onclick="xoa()" style="width:190px;">C</button>
+</div>
+
+</body>
+</html>

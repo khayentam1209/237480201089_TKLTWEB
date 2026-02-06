@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Select tính toán</title>
+<script>
+function Tinh(){
+    let a=parseFloat(So01.value);
+    let b=parseFloat(So02.value);
+    let p=Phep.value;
+    if(p=='+') Ketqua.value=a+b;
+    if(p=='-') Ketqua.value=a-b;
+    if(p=='*') Ketqua.value=a*b;
+    if(p=='/') Ketqua.value=a/b;
+}
+</script>
+</head>
+<body>
+<input name="So01"> <input name="So02"><br>
+<select name="Phep">
+    <option value="+">Cộng</option>
+    <option value="-">Trừ</option>
+    <option value="*">Nhân</option>
+    <option value="/">Chia</option>
+</select>
+<button onclick="Tinh()">Tính</button><br>
+Kết quả: <input name="Ketqua">
+</body>
+</html>

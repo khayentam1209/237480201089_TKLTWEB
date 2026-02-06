@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tính lương</title>
+<script>
+function TinhLuong(){
+    LuongCoBan.value = HeSo.value * LuongCoSo.value;
+    PhuCap.value = LuongCoBan.value * 0.25;
+    ThamNien.value = new Date().getFullYear() - NamVaoLam.value;
+    ThanhTien.value = parseFloat(LuongCoBan.value) + parseFloat(PhuCap.value);
+}
+</script>
+</head>
+<body>
+Họ tên: <input name="HoTen"><br>
+Năm vào làm: <input name="NamVaoLam" onkeyup="TinhLuong()"><br>
+Hệ số: <input name="HeSo" onkeyup="TinhLuong()"><br>
+Lương cơ sở: <input name="LuongCoSo" onkeyup="TinhLuong()"><br><hr>
+Lương cơ bản: <input name="LuongCoBan"><br>
+Phụ cấp: <input name="PhuCap"><br>
+Thâm niên: <input name="ThamNien"><br>
+Thành tiền: <input name="ThanhTien">
+</body>
+</html>

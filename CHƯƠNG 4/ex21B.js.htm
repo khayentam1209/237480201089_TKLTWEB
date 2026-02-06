@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Radio tính toán</title>
+<script>
+function Tinh(){
+    let a=parseFloat(So01.value);
+    let b=parseFloat(So02.value);
+    let p=document.querySelector('input[name="phep"]:checked').value;
+    if(p=='+') Ketqua.value=a+b;
+    if(p=='-') Ketqua.value=a-b;
+    if(p=='*') Ketqua.value=a*b;
+    if(p=='/') Ketqua.value=a/b;
+}
+</script>
+</head>
+<body>
+<input name="So01"> <input name="So02"><br>
+<input type="radio" name="phep" value="+">+
+<input type="radio" name="phep" value="-">-
+<input type="radio" name="phep" value="*">*
+<input type="radio" name="phep" value="/">/<br>
+<button onclick="Tinh()">Tính</button><br>
+Kết quả: <input name="Ketqua">
+</body>
+</html>
