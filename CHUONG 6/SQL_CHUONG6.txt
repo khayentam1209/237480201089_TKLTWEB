@@ -1,0 +1,29 @@
+Câu3:
+CREATE TABLE tonkho (
+    mahang VARCHAR(4) PRIMARY KEY,
+    tenhang VARCHAR(40),
+    mansx VARCHAR(2),
+    namsx INT,
+    gia INT,
+    soluong INT
+);
+
+Câu4:
+INSERT INTO tonkho (mahang, tenhang, mansx, namsx, gia, soluong)
+VALUES 
+('DE01', 'Dell Vostro', 'DE', 2015, 650, 20),
+('DE02', 'Dell Inspiron', 'DE', 2015, 550, 30);
+
+Câu5:
+UPDATE khachhang
+SET dienthoai = '0912131415'
+WHERE makh = 'K007';
+
+Câu6:
+DELETE FROM khachhang
+WHERE makh = 'K010';
+
+Câu7:
+SELECT *
+FROM hanghoa
+WHERE mansx = 'DELL';
