@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nhập dữ liệu cần liệt kê</title>
+</head>
+<body>
+    <h2>NHẬP DỮ LIỆU CẦN LIỆT KÊ</h2>
+
+    <form action="List.php" method="post">
+        <label>Chọn dữ liệu:</label><br><br>
+
+        <select name="dulieu" size="5">
+            <option value="hanghoa">Hàng hóa</option>
+            <option value="khachhang">Khách hàng</option>
+            <option value="nhasanxuat">Nhà sản xuất</option>
+            <option value="hoadon">Hóa đơn</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="In dữ liệu">
+    </form>
+</body>
+</html>
